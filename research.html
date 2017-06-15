@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+  </head>
+  <body>
+  <header>
+  <div class="page-header">
+    <h1>We want to know who you are!!</h1>
+    <h6> We're doing research on who visits our website. Add your name and age to our growing list!</h6>
+  </div>
+  
+  </header>
+  <nav> 
+          <ul class="nav nav-tabs nav-justified" role="tablist">
+              <li class="active"><a href="index.html">Home</a></li>  
+              <li><a href="record-labels.html">Pop Punk Labels</a></li>
+              <li><a href="music-i-like.html">Music Obsessions</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="research.html">HELP US </a></li>
+          </ul>
+          </nav>
+
+    <div id="table-page">
+      <button type="button" id="new-person">Add New Person</button>
+
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Name
+            </th>
+            <th>
+              Age
+            </th>
+            <th>
+            </th>
+          </tr>
+        </thead>
+        <tbody id="people">
+        </tbody>
+      </table>
+    </div>
+    <div id="form-page" style="display:none">
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+        <br />
+        <label for="age">Age</label>
+        <input type="number" id="age" />
+        <br />
+        <button type="submit" id="submit">Submit</button>
+        <button type="button" id="cancel">Cancel</button>
+      </form>
+    </div>
+      <footer>
+        <h3 class="text-info">Follow Me</h3>
+          <span class="label label-success">Twitter</span>
+          <span class="label label-info">Instagram</span>
+        <p> Thank you for visiting my site <time datetime="2017"> <small> 2017  </small></time> </p>
+      </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="  crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+  <!--    bootstrap js-->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="research.js"></script>
+  </body>
+</html>

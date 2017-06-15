@@ -1,0 +1,44 @@
+body {
+  color: darkred;
+  background-image: url(https://static.tumblr.com/ffafb6f389f270de176d14d908c0354e/wpuhwta/sSKnzjdck/tumblr_static_tumblr_static__640.jpg);
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+}
+
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 6rem;
+  font-family: 'Spectral', serif;
+  color: black;
+}
+
+h2 {
+  position: absolute;
+  top: 47%;
+  left: 43%;
+  margin-top: -50px;
+  text-align: center;
+  font-size: 2.5rem;
+font-family: 'Spectral', serif;
+  color: black;
+}
+
+a:link, a:visited {
+  color: black;
+}
+
+footer {
+  font-family: 'Spectral', serif;
+  width: 100%;
+  position: fixed;
+  color: black;
+  font-size: 1.5rem;
+  top: 95%;
+  bottom: 0;
+}
